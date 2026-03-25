@@ -1,0 +1,9 @@
+Takes password input from user (hidden property added)
+Checks if password is empty, if yes then prints Weak
+Checks if password length is at least 8, else puts length_check property as 0
+Looks for a number in the password, else puts number_check as 0
+Looks for a special character, else puts special_check as 0
+Looks for uppercase letters, else puts upper_check as 0
+Looks for lowercase letters, else puts lower_check as 0
+Uses the combination of all conditions to decide strength
+Prints Weak, Medium, or Strong accordingly
